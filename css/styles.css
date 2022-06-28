@@ -1,0 +1,121 @@
+
+
+body {
+    margin: 0px;
+}  
+.container1 {
+   
+    height: auto;
+    background: peachpuff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.header {
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    background-color: #31507b;
+    display: flex;
+    justify-content: space-between
+}
+
+.list{
+
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius : 50%;
+}
+
+.part1,
+.part2,
+.part3,
+{
+    height: 300px;
+}
+.asterphoto {
+    height: 300px;
+}
+.part1{
+   
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 30px;
+    gap: 10px;
+    background-color:#31507b;
+}
+.about{
+    flex: 1 1 auto;
+    height: 200px;
+    color: aliceblue;
+}
+
+.jardin{
+    flex: 1 1 auto;
+    height: 200px;
+    width: 600px;
+
+}
+.jardin img{
+    height: 100%;
+    width: 100%;
+}
+
+.typesdefleur{
+    text-align: center;
+}
+.aster,
+.rose,
+.phlox,
+.pivoine
+{
+    color: darkcyan;
+    text-align: center;
+}
+.asterphoto img,
+.rosephoto img,
+.phloxphoto img,
+.pivoinephoto img{
+    height: 100%;
+    width: 100%;
+}
+.asterphoto,
+.rosephoto,
+.phloxphoto,
+.pivoinephoto
+{
+    display: flex;
+    height: 300px;
+}
+.part2
+{
+    
+    background-color: #31507b;
+    text-align: center;
+    color: azure;
+    height: 150px;
+    align-items: center;
+    align-content: center;
+}
